@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Reset Password",
+    "content": "Users can reset their password from Settings > Security. Click 'Forgot Password' on the login page to receive a reset link via email. The link expires after 24 hours. After resetting, you must log in with your new password on all devices."
+  },
+  {
+    "title": "Account Registration",
+    "content": "New users can register by visiting the signup page and providing a valid email address, full name, and a password that meets security requirements (minimum 8 characters, one uppercase letter, one number). A verification email is sent upon registration. Accounts remain inactive until the email is verified."
+  },
+  {
+    "title": "Subscription Plans",
+    "content": "We offer three subscription tiers: Free (basic features, 5 projects), Pro ($19/month, unlimited projects, priority support), and Enterprise (custom pricing, SSO, dedicated account manager). Users can upgrade or downgrade from Billing > Plans. Downgrades take effect at the end of the current billing cycle."
+  },
+  {
+    "title": "API Rate Limits",
+    "content": "API rate limits depend on your plan: Free tier allows 100 requests per hour, Pro allows 1,000 requests per hour, and Enterprise has custom limits. When you exceed the limit, the API returns HTTP 429 with a Retry-After header. Monitor usage from the Developer Dashboard under API > Usage."
+  },
+  {
+    "title": "Data Export",
+    "content": "Users can export their data in JSON or CSV format from Settings > Privacy > Export Data. Export requests are processed within 48 hours and a download link is emailed when ready. Exported files are available for 7 days before automatic deletion."
+  },
+  {
+    "title": "Two-Factor Authentication",
+    "content": "Enable two-factor authentication (2FA) from Settings > Security > Two-Factor Auth. Supported methods include authenticator apps (TOTP) and SMS. Backup codes are generated during setup; store them securely. If you lose access to your 2FA device, use a backup code or contact support with identity verification."
+  },
+  {
+    "title": "Refund Policy",
+    "content": "Refunds are available within 14 days of purchase for annual subscriptions and within 7 days for monthly subscriptions. To request a refund, go to Billing > Invoices, select the invoice, and click Request Refund. Refunds are processed to the original payment method within 5-10 business days."
+  },
+  {
+    "title": "Team Collaboration",
+    "content": "Team owners can invite members via Settings > Team > Invite. Roles include Owner, Admin, Editor, and Viewer. Admins can manage billing and members; Editors can create and edit content; Viewers have read-only access. Remove members from the same page; removed users lose access immediately."
+  },
+  {
+    "title": "Supported Browsers",
+    "content": "The web application supports the latest two versions of Chrome, Firefox, Safari, and Edge. Internet Explorer is not supported. For the best experience, enable JavaScript and cookies. Mobile browsers on iOS 15+ and Android 10+ are supported for core features."
+  },
+  {
+    "title": "Contact Support",
+    "content": "Contact support via the in-app Help button or email support@example.com. Pro and Enterprise customers receive priority response within 4 business hours. Include your account email and a description of the issue. For billing disputes, use Billing > Contact Billing Support."
+  }
+]

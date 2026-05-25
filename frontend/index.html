@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GenAI RAG Assistant</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <div class="header-text">
+        <h1>Knowledge Base Assistant</h1>
+        <p class="subtitle">RAG-powered answers from your document library</p>
+      </div>
+      <button type="button" id="newChatBtn" class="btn-secondary" title="Start a new conversation">
+        New Chat
+      </button>
+    </header>
+
+    <main class="chat-panel">
+      <div id="chatDisplay" class="chat-display" aria-live="polite"></div>
+      <div id="loadingIndicator" class="loading hidden" aria-hidden="true">
+        <span class="spinner"></span>
+        <span>Thinking…</span>
+      </div>
+    </main>
+
+    <footer class="input-panel">
+      <form id="chatForm" class="input-form">
+        <textarea
+          id="messageInput"
+          rows="2"
+          placeholder="Ask a question about your account, billing, security…"
+          autocomplete="off"
+          required
+        ></textarea>
+        <button type="submit" id="sendBtn" class="btn-primary">Send</button>
+      </form>
+    </footer>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
